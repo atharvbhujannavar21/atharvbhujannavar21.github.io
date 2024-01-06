@@ -12,6 +12,7 @@ body
     font-family: 'Poppins', sans-serif;
     animation-name: transitionIn;
     animation-duration: 0.75s;
+  background-color:rgb(255, 195, 0 ); 
 }
 @keyframes transitionIn {
     from
