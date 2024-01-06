@@ -234,8 +234,13 @@ section
 {
     border-radius: 2rem;
     height: 350px; 
-    width: 450px; 
+    transition: transform 0.3s ease-in-out; 
+
 }
+.about-pic:hover
+{
+    transform: scale(1.05);
+
 .arrow
 {
     position: absolute;
@@ -403,7 +408,7 @@ footer {
         font-size: 16px;
         cursor: pointer;
         border: none;
-        background-color: #3498db;
+        background-color: rgb(53,53,53);
         color: #fff;
     }
     
